@@ -4,7 +4,8 @@ body {
 .container{
     background-color: hsl(0, 0%, 100%);
     margin: 9% 30% 9% 30%; 
-    width: 40%; /*size of flex in reference to window size*/
+    height: auto;
+    width: 750px; /*size of flex in reference to window size*/
     display: flex;/*flex instead of block to prevent auto newline*/
     border-radius: 10px;
     box-sizing: border-box;
